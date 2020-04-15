@@ -1,0 +1,37 @@
+/*linked to index6.html*/
+#box {
+    height:150px;
+    width: 150px;
+    background-color: orange;
+    margin: 25px;
+}
+#triangle-up {
+    height: 0;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #500;    
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+}
+#ReSet {
+    font-size: medium;
+    color: blue;
+    background-color: red;
+}
+#greenText{
+    font-size: large;
+    font-weight: 700;
+}
+.btn-group button {
+    background-color: rgb(66, 147, 172); /* BlueSteel background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 4px 4px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }

@@ -1,0 +1,17 @@
+BooTheDog.html:
+    line 19: added h1 tags
+    line 50: added <>
+    lines 71-77: corrected list formatting, and changed it to a <ul>
+    lines 88-90: corrected color matching
+    line 90: shifted line over
+    line 112: changed errors.js to logic.js
+
+logic.js:
+    line 6: corrected punctuation.
+    line 9: changed pink to "pink"
+    line 20: changed click, funct... to "click", funct...
+    line 25: changed click, funct... to "click", funct...
+
+style.css:
+    line 2: added ; after hex color designation
+    line 22: changed margin:auto; to margin: auto;

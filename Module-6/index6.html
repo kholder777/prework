@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="css6.css">
+    <script src="javascript6.js"></script>
+    
+</head>
+<body>
+    <p>Press the buttons to change the box!</p>
+    
+    <div id="box"></div>
+<div class="btn-group">
+<!--shrinking Box-->
+    <button id="shrinkBtn" onclick="shrink()">Shrink</button>
+    <button onclick="grow()">Grow</button>
+    <button id="BluBttn" onclick="blue()">click to change Blue</button>
+<!--fading Box-->
+    <button id="buttonIN" onclick="fadeIn()">Fade IN</button>
+    <button id="buttonOUT"onclick="fadeOut()">Fade OUT</button>
+<!--change Square to Triangle, need to dig deeper to get this option to work..
+    <button id="triangle" onclick="triangle()">Shape-Shifter</button> -->
+<!--reset button, unable to figure this one out...
+    <button id="reset" onclick="reset()">Reset</button> -->
+</div>
+</br></br></br></br>
+<!--changing text colors.-->
+    <p id="greenText" onclick="my1Function()">Click me to change my text to green.</p>
+    <button onclick="my2Function()">change text above to red.</button>
+    <button id="goldBttn" onclick="m123()">Change to GOLD.</button>
+    <button onclick="a459()">change gold button!</button>
+<!--Question: Button doesn't need an id, only a function? Is this because I'm 
+    not going to be altering the button? But if I did want to alter it with 
+    js or css, I WOULD have to give it an id?
+...It would seem so..-->
+
+</body> 
+</html>
